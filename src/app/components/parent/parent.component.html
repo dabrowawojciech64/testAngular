@@ -1,0 +1,5 @@
+<div class="container">
+  <app-child [value]="value"></app-child>
+  <input type="text" #inputValue />
+  <button (click)="buttonClick(inputValue.value)">Przekaż dane</button>
+</div>
